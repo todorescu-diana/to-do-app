@@ -1,0 +1,24 @@
+.HeaderLogo {
+    display:flex;
+    width: 551px;
+    border:2px solid white;
+    border-radius:10px;
+    background-color:rgb(252, 245, 225);
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.logoImage {
+    float:left;
+    height:auto;
+    width:50px;
+    object-fit:contain;
+    padding-left:10px;
+}
+
+.Quote {
+    font-weight:700;
+    padding-left:10px;
+    font-family: 'Montserrat', sans-serif!important;
+    font-style:italic ;
+} 
