@@ -230,10 +230,6 @@ function ToDoList(props) {
 
   console.log("ID:", props.id);
 
-  /*   useEffect(() => {
-    setId(items.length);
-  }, items);  */
-
   async function addItem(event) {
     try {
       event.preventDefault();

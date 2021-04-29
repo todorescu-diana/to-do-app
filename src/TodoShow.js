@@ -42,15 +42,6 @@ function TodoShow(props) {
 
   console.log("new items:", props.items);
 
-  /*  async function getTheme(array) {
-    let element = array[0];
-    async function getTheme (el) {let response = await fetch(`http://localhost:3333/to-do/${element.id}`);let data = await response.json();
-    console.log(data.theme);props.setTheme(data.theme);}
-    getTheme(element);
-    //props.setTheme(response.theme);
-    //console.log(response.theme);
-  }
- */
   function toggleImportantButton(important, name) {
     if (important === "no") {
       let newArr = [];
